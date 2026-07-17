@@ -31,7 +31,7 @@ with col2:
         help="Enter the account code (e.g. 4686, LCG)"
     )
 
-period = st.text_input("📅 Reporting Period", value="4Q25")
+period = st.text_input("📅 Reporting Period", value="4Q65")
 
 st.markdown("---")
 
