@@ -1,0 +1,16 @@
+[global]
+suppressDeprecationWarnings = true
+
+[server]
+runOnSave = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#00A99D"
+backgroundColor = "#F4F6F9"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0A2240"
+font = "sans serif"
