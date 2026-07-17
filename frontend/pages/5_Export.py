@@ -53,6 +53,9 @@ st.markdown("""
 # ── Check reportlab availability upfront ────────────────────
 try:
     import reportlab
+    REPORTLAB_AVAILABLE = False
+try:
+    import reportlab
     REPORTLAB_AVAILABLE = True
 except ImportError:
     REPORTLAB_AVAILABLE = False
