@@ -4,6 +4,9 @@ suppressDeprecationWarnings = true
 [server]
 runOnSave = true
 maxUploadSize = 200
+headless = true
+enableCORS = false
+enableXsrfProtection = false
 
 [browser]
 gatherUsageStats = false
@@ -12,5 +15,5 @@ gatherUsageStats = false
 primaryColor = "#00A99D"
 backgroundColor = "#F4F6F9"
 secondaryBackgroundColor = "#FFFFFF"
-textColor = "#0A2240"
+textColor = "#004B49"
 font = "sans serif"
